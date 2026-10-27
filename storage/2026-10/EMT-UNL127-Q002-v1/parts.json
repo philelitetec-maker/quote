@@ -1,0 +1,18 @@
+[
+  {"key":"00.01","part_number":"UNL127-00.01","name":"Body","process":"CNC Milling","material":"","surface_treatment":"","qty":1},
+  {"key":"00.02","part_number":"UNL127-00.02","name":"Puller","process":"CNC Milling","material":"","surface_treatment":"","qty":1},
+  {"key":"00.03","part_number":"UNL127-00.03","name":"Deflactor","process":"CNC Milling","material":"","surface_treatment":"","qty":1},
+  {"key":"00.04","part_number":"UNL127-00.04","name":"Reflector","process":"CNC Milling","material":"","surface_treatment":"","qty":1},
+  {"key":"00.05","part_number":"UNL127-00.05","name":"Sleeve","process":"3D Printing (SLS Black Polyamide)","material":"PA12 Black","surface_treatment":"As-printed","qty":1},
+  {"key":"00.06","part_number":"UNL127-00.06","name":"Deflactor 2","process":"3D Printing (SLS Black Polyamide)","material":"PA12 Black","surface_treatment":"As-printed","qty":1},
+  {"key":"00.07","part_number":"UNL127-00.07","name":"Leg","process":"CNC Milling","material":"","surface_treatment":"","qty":2},
+  {"key":"00.08","part_number":"UNL127-00.08","name":"Handle","process":"CNC Milling","material":"","surface_treatment":"","qty":1},
+  {"key":"00.09","part_number":"UNL127-00.09","name":"Washer","process":"CNC Turning","material":"","surface_treatment":"","qty":3},
+  {"key":"01.01","part_number":"UNL127-01.01","name":"Shaft","process":"CNC Turning","material":"","surface_treatment":"","qty":1},
+  {"key":"01.04","part_number":"UNL127-01.04","name":"Gear m1-z80","process":"CNC Milling + Gear Hobbing","material":"","surface_treatment":"","qty":1},
+  {"key":"02.01","part_number":"UNL127-02.01","name":"Bearings Housing","process":"CNC Milling","material":"","surface_treatment":"","qty":1},
+  {"key":"02.03","part_number":"UNL127-02.03","name":"Front Cover","process":"CNC Milling","material":"","surface_treatment":"","qty":1},
+  {"key":"02.04","part_number":"UNL127-02.04","name":"Gear m1-z20","process":"CNC Milling + Gear Hobbing","material":"","surface_treatment":"","qty":1},
+  {"key":"03.01","part_number":"UNL127-03.01","name":"Bearings Housing 2","process":"CNC Milling","material":"","surface_treatment":"","qty":1},
+  {"key":"03.02","part_number":"UNL127-03.02","name":"Rear Cover","process":"CNC Milling","material":"","surface_treatment":"","qty":1}
+]

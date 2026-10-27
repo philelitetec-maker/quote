@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EMT-UNL127-Q002-v1 | Elite Mold Tech Quotation</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10pt; color: #222; background: #f4f6f8; }
+  .page { max-width: 1050px; margin: 20px auto; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.12); }
+
+  /* Header */
+  .header { display: flex; align-items: stretch; background: #1a3c6e; color: #fff; }
+  .header-logo { background: #fff; padding: 18px 24px; display: flex; align-items: center; }
+  .header-logo .company { font-size: 13pt; font-weight: 700; color: #1a3c6e; line-height: 1.3; }
+  .header-logo .sub { font-size: 8pt; color: #555; }
+  .header-title { flex: 1; padding: 18px 28px; display: flex; flex-direction: column; justify-content: center; }
+  .header-title h1 { font-size: 18pt; font-weight: 700; letter-spacing: 1px; color: #f0a500; }
+  .header-title .subtitle { font-size: 9pt; color: #cde; margin-top: 3px; }
+  .header-meta { padding: 18px 24px; font-size: 8.5pt; line-height: 2; text-align: right; border-left: 1px solid rgba(255,255,255,0.15); }
+  .header-meta strong { color: #f0a500; }
+
+  /* Info bar */
+  .info-bar { display: flex; background: #f0a500; }
+  .info-cell { flex: 1; padding: 7px 16px; font-size: 8.5pt; border-right: 1px solid rgba(255,255,255,0.4); }
+  .info-cell:last-child { border-right: none; }
+  .info-cell .label { font-weight: 700; color: #1a3c6e; display: block; }
+  .info-cell .value { color: #333; }
+
+  /* Section title */
+  .section-title { background: #1a3c6e; color: #f0a500; font-size: 9.5pt; font-weight: 700; letter-spacing: 0.5px; padding: 6px 16px; margin: 0; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; font-size: 8.5pt; }
+  th { background: #1a3c6e; color: #f0a500; padding: 6px 8px; text-align: center; font-weight: 600; white-space: nowrap; }
+  td { padding: 5px 8px; border-bottom: 1px solid #e8ecf0; vertical-align: middle; }
+  tr:nth-child(even) td { background: #f7f9fc; }
+  tr:hover td { background: #eef2f8; }
+  td.right { text-align: right; }
+  td.center { text-align: center; }
+  td.num { text-align: right; font-family: 'Courier New', monospace; }
+  .subtotal-row td { background: #e8ecf4 !important; font-weight: 600; border-top: 2px solid #1a3c6e; }
+  .total-row td { background: #1a3c6e !important; color: #f0a500; font-weight: 700; font-size: 10pt; }
+  .blank { color: #bbb; font-style: italic; }
+
+  /* Hardware table */
+  .hw-section { margin: 0; }
+
+  /* DFM */
+  .dfm-box { margin: 0; padding: 14px 18px; background: #fffbf0; border-left: 4px solid #f0a500; font-size: 8.5pt; }
+  .dfm-box h3 { color: #1a3c6e; font-size: 9pt; margin-bottom: 8px; }
+  .dfm-box ul { padding-left: 18px; }
+  .dfm-box li { margin-bottom: 4px; }
+  .flag-warn { color: #d97700; font-weight: 600; }
+  .flag-info { color: #1a6ebd; font-weight: 600; }
+
+  /* Terms */
+  .terms { padding: 14px 18px; font-size: 8pt; color: #555; background: #f7f9fc; }
+  .terms h3 { color: #1a3c6e; font-size: 8.5pt; margin-bottom: 8px; }
+  .terms-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 20px; }
+  .terms-grid div::before { content: '• '; color: #f0a500; font-weight: 700; }
+
+  /* Stamp */
+  .footer { display: flex; padding: 20px 18px; gap: 30px; align-items: flex-start; background: #fff; border-top: 2px solid #1a3c6e; }
+  .stamp-area { flex: 1; min-height: 90px; border: 1.5px dashed #bbb; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 8pt; font-style: italic; }
+  .sig-block { flex: 2; font-size: 8pt; color: #555; line-height: 2; }
+  .sig-block strong { color: #1a3c6e; }
+
+  /* Divider */
+  .gap { height: 1px; background: #e0e4ea; }
+
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; margin: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-logo">
+      <div>
+        <div class="company">Elite Mold Tech</div>
+        <div class="sub">Shenzhen Elite Technology Co., Ltd</div>
+        <div class="sub" style="margin-top:4px;color:#888;font-size:7.5pt">
+          📧 phil.elitetec@gmail.com<br>
+          🌐 www.elitemoldtech.com
+        </div>
+      </div>
+    </div>
+    <div class="header-title">
+      <h1>QUOTATION</h1>
+      <div class="subtitle">Precision CNC Machining &amp; 3D Printing Services</div>
+    </div>
+    <div class="header-meta">
+      <strong>Quote No.:</strong> EMT-UNL127-Q002-v1<br>
+      <strong>Date:</strong> 27 October 2026<br>
+      <strong>Valid:</strong> 30 Days<br>
+      <strong>Prepared by:</strong> Phil Huang<br>
+      <strong>Rev:</strong> 1
+    </div>
+  </div>
+
+  <!-- INFO BAR -->
+  <div class="info-bar">
+    <div class="info-cell">
+      <span class="label">Project</span>
+      <span class="value">UNL127 Assembly</span>
+    </div>
+    <div class="info-cell">
+      <span class="label">Reference Drawing</span>
+      <span class="value">UM762X54-00.00-22102026</span>
+    </div>
+    <div class="info-cell">
+      <span class="label">Order Qty</span>
+      <span class="value">1 Set</span>
+    </div>
+    <div class="info-cell">
+      <span class="label">Lead Time</span>
+      <span class="value">TBD</span>
+    </div>
+    <div class="info-cell">
+      <span class="label">Incoterms</span>
+      <span class="value">FOB Shenzhen</span>
+    </div>
+  </div>
+
+  <!-- CUSTOM PARTS -->
+  <div class="section-title">§1 — Custom Manufactured Parts</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:40px">#</th>
+        <th style="width:130px">Part Number</th>
+        <th style="text-align:left">Part Name</th>
+        <th>Process</th>
+        <th>Material</th>
+        <th>Surface Treatment</th>
+        <th style="width:40px">Qty</th>
+        <th style="width:80px">Unit Price (USD)</th>
+        <th style="width:80px">Total (USD)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="center">1</td>
+        <td>UNL127-00.01</td>
+        <td>Body</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">2</td>
+        <td>UNL127-00.02</td>
+        <td>Puller</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">3</td>
+        <td>UNL127-00.03</td>
+        <td>Deflactor</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">4</td>
+        <td>UNL127-00.04</td>
+        <td>Reflector</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">5</td>
+        <td>UNL127-00.05</td>
+        <td>Sleeve</td>
+        <td class="center">3D Printing (SLS)</td>
+        <td class="center">PA12 Black Polyamide</td>
+        <td class="center">As-printed</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">6</td>
+        <td>UNL127-00.06</td>
+        <td>Deflactor 2</td>
+        <td class="center">3D Printing (SLS)</td>
+        <td class="center">PA12 Black Polyamide</td>
+        <td class="center">As-printed</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">7</td>
+        <td>UNL127-00.07</td>
+        <td>Leg</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">2</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">8</td>
+        <td>UNL127-00.08</td>
+        <td>Handle</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">9</td>
+        <td>UNL127-00.09</td>
+        <td>Washer</td>
+        <td class="center">CNC Turning</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">3</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">10</td>
+        <td>UNL127-01.01</td>
+        <td>Shaft</td>
+        <td class="center">CNC Turning</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">11</td>
+        <td>UNL127-01.04</td>
+        <td>Gear m1-z80</td>
+        <td class="center">CNC Milling + Gear Hobbing</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">12</td>
+        <td>UNL127-02.01</td>
+        <td>Bearings Housing</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">13</td>
+        <td>UNL127-02.03</td>
+        <td>Front Cover</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">14</td>
+        <td>UNL127-02.04</td>
+        <td>Gear m1-z20</td>
+        <td class="center">CNC Milling + Gear Hobbing</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">15</td>
+        <td>UNL127-03.01</td>
+        <td>Bearings Housing 2</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">16</td>
+        <td>UNL127-03.02</td>
+        <td>Rear Cover</td>
+        <td class="center">CNC Milling</td>
+        <td class="center blank">TBD</td>
+        <td class="center blank">TBD</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr class="subtotal-row">
+        <td colspan="8" class="right">Subtotal — Custom Parts:</td>
+        <td class="num blank">—</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="gap"></div>
+
+  <!-- HARDWARE / PURCHASED PARTS -->
+  <div class="section-title">§2 — Standard / Purchased Parts</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:40px">#</th>
+        <th style="text-align:left">Description</th>
+        <th>Standard</th>
+        <th style="width:50px">Qty</th>
+        <th style="width:80px">Unit Price (USD)</th>
+        <th style="width:80px">Total (USD)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="center">H1</td>
+        <td>Bolt DIN 912 M6 × 12</td>
+        <td class="center">DIN 912</td>
+        <td class="center">3</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">H2</td>
+        <td>Bolt DIN 912 M4 × 10</td>
+        <td class="center">DIN 912</td>
+        <td class="center">41</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">H3</td>
+        <td>Parallel Key 6 × 6 × 16</td>
+        <td class="center">DIN 6885</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">H4</td>
+        <td>Circlip DIN 471 — 15 × 1</td>
+        <td class="center">DIN 471</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">H5</td>
+        <td>Circlip DIN 471 — 20 × 1.2</td>
+        <td class="center">DIN 471</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">H6</td>
+        <td>SKF Bearing 61902</td>
+        <td class="center">SKF</td>
+        <td class="center">6</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr>
+        <td class="center">H7</td>
+        <td>Tapered Handle I.167_103 p-M8×16</td>
+        <td class="center">—</td>
+        <td class="center">1</td>
+        <td class="num blank">—</td>
+        <td class="num blank">—</td>
+      </tr>
+      <tr class="subtotal-row">
+        <td colspan="5" class="right">Subtotal — Purchased Parts:</td>
+        <td class="num blank">—</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="gap"></div>
+
+  <!-- GRAND TOTAL -->
+  <table>
+    <tbody>
+      <tr class="total-row">
+        <td style="padding-left:18px;font-size:10.5pt">GRAND TOTAL (1 Set · FOB Shenzhen)</td>
+        <td class="num" style="font-size:12pt;padding-right:18px;min-width:120px;color:#f0a500">USD &nbsp;—</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="gap"></div>
+
+  <!-- DFM NOTES -->
+  <div class="dfm-box">
+    <h3>Design for Manufacturability (DFM) Notes</h3>
+    <ul>
+      <li><span class="flag-warn">⚠ Gear Hobbing</span> — UNL127-01.04 (m1-z80) and UNL127-02.04 (m1-z20) require external gear hobbing sub-process. Lead time impact: +3–5 days. Please confirm gear module, pressure angle (20° assumed), and tolerance class (ISO 5–7).</li>
+      <li><span class="flag-warn">⚠ Material Unspecified</span> — Material grade not specified for 14 of 16 custom parts. Pricing above reflects typical Al6061-T6 for housings/covers, steel for shaft and gears. Confirm before order placement.</li>
+      <li><span class="flag-info">ℹ 3D Printed Parts</span> — UNL127-00.05 (Sleeve) and UNL127-00.06 (Deflactor 2) are SLS black polyamide (PA12) per BOM. No engineering drawing provided; dimensions taken from STEP only.</li>
+      <li><span class="flag-info">ℹ Bearings</span> — 6× SKF 61902 (15 mm bore, deep groove ball bearing) sourced as standard items. Confirm if OEM brand required or alternate accepted.</li>
+    </ul>
+  </div>
+
+  <div class="gap"></div>
+
+  <!-- TERMS -->
+  <div class="terms">
+    <h3>Commercial Terms &amp; Conditions</h3>
+    <div class="terms-grid">
+      <div>Incoterms: FOB Shenzhen, China</div>
+      <div>Payment: 50% deposit, 50% before shipment</div>
+      <div>Currency: USD</div>
+      <div>Quote validity: 30 days from issue date</div>
+      <div>Lead time: TBD (subject to material confirmation)</div>
+      <div>Packaging: Export-grade wooden crate</div>
+      <div>Inspection: In-house CMM + dimensional report</div>
+      <div>Standards: ISO 2768-m/H unless otherwise noted</div>
+    </div>
+  </div>
+
+  <!-- FOOTER / STAMP -->
+  <div class="footer">
+    <div class="stamp-area">Company Stamp</div>
+    <div class="sig-block">
+      <strong>Prepared by:</strong> Phil Huang<br>
+      <strong>Company:</strong> Shenzhen Elite Technology Co., Ltd<br>
+      <strong>Email:</strong> phil.elitetec@gmail.com<br>
+      <strong>Date:</strong> 27 October 2026<br>
+      <br>
+      <em style="font-size:7.5pt;color:#aaa">This quotation is issued in confidence. Prices are indicative pending material confirmation.</em>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
